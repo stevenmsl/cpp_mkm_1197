@@ -27,8 +27,8 @@ int Solution::minMoves(int x, int y)
        symmetric in all 4 quadrants
        (x,y) (x,-y) (-x,y) (-x,-y)
      - we only care about the steps
-       so we can just focus on the
-       first quadrant
+       taken so we can just focus on
+       the first quadrant
   */
   x = abs(x), y = abs(y);
 
